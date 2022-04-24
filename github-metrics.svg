@@ -643,7 +643,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 2.73m out of 302m repositories</span>
+                                    <span class="gh">ranked 2.54m out of 302m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">2</div>
                                     </div>
@@ -955,7 +955,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 21 Apr 2022, 21:19:26
+                            On 21 Apr 2022, 18:33:14
                         </div>
                     </section>
                 </div>
@@ -971,23 +971,23 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">1211da76</span>
-                            <span class="code">src/components/listen.scss</span>
-                            <span class="code"><span class="snippet additions">++1</span> <span class="snippet deletions">--3</span></span>
+                            <span class="code">ddb62a78</span>
+                            <span class="code">src/components/weather-container.js</span>
+                            <span class="code"><span class="snippet additions">++2</span> <span class="snippet deletions">--1</span></span>
                         </div>
                     </section>
                 </div>
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -30,9 +30,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">#WMTNStream_Mobile {<br /></span><span class="token prefix unchanged">·</span><span class="token line">position: relative;<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">width: 100%;<br /></span><span class="token prefix deleted">-</span><span class="token line"><br /></span><span class="token prefix deleted">-</span><span class="token line">border-radius: 8px;<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">width: 80vw;<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">margin-left: auto;<br /></span><span class="token prefix unchanged">·</span><span class="token line">margin-right: auto;</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -11,7 +11,8 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">}<br /></span><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">export async function getWeather() {<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">const response = await fetch("https://api.serabusm.com/v1/weather");<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">// eslint-disable-next-line no-undef<br /></span><span class="token prefix inserted">+</span><span class="token line">const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/v1/weather`);<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line"><br /></span><span class="token prefix unchanged">·</span><span class="token line">const data = await response.json();<br /></span><span class="token prefix unchanged">·</span></span></code>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 24 Apr 2022, 07:14:23 (timezone America/Chicago) with lowlighter/metrics@3.22.0</span>
+                <span>Last updated 24 Apr 2022, 08:18:58 (timezone America/Chicago) with lowlighter/metrics@3.22.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
